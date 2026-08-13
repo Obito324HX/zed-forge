@@ -8,7 +8,6 @@ import { Hero } from "@/components/home/Hero";
 import { Process } from "@/components/home/Process";
 import { Services } from "@/components/home/Services";
 import { Skills } from "@/components/home/Skills";
-import { SocialProof } from "@/components/home/SocialProof";
 import { Team } from "@/components/home/Team";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
       <Navbar />
       <main id="main">
         <Hero />
-        <SocialProof />
         <FeaturedWork />
         <Services />
         <Process />

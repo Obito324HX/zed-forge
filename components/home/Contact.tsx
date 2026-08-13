@@ -106,11 +106,11 @@ export function Contact() {
           sub="Based in Lusaka. Working with businesses across Zambia."
         />
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
-          <div className="rounded-lg border border-ff-border bg-ff-surface p-6">
+          <div className="border border-ff-border bg-ff-surface p-6">
             {status === "success" ? (
               <div className="flex min-h-[420px] items-center justify-center text-center">
                 <div>
-                  <div className="mx-auto mb-5 grid h-12 w-12 place-items-center rounded-full bg-ff-green text-xl font-bold text-black">
+                  <div className="mx-auto mb-5 grid h-12 w-12 place-items-center bg-ff-green text-xl font-bold text-black">
                     ✓
                   </div>
                   <h3 className="font-heading text-2xl font-bold text-ff-text">
@@ -233,7 +233,7 @@ export function Contact() {
                   suppressHydrationWarning
                   type="submit"
                   disabled={status === "sending"}
-                  className="focus-ring rounded-md bg-ff-blue px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-60 sm:col-span-2"
+                  className="focus-ring bg-ff-blue px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-60 sm:col-span-2"
                 >
                   {status === "sending" ? "Sending..." : "Send Project Brief →"}
                 </button>
@@ -241,7 +241,7 @@ export function Contact() {
             )}
           </div>
 
-          <aside className="rounded-lg border border-ff-border bg-ff-surface p-6">
+          <aside className="border border-ff-border bg-ff-surface p-6">
             <h3 className="font-heading text-2xl font-bold text-ff-text">
               Direct contact
             </h3>
@@ -255,7 +255,7 @@ export function Contact() {
                   aria-label={ariaLabel}
                   className="group flex items-center gap-3 text-ff-muted transition hover:text-ff-text"
                 >
-                  <span className="flex h-9 w-9 items-center justify-center rounded-md border border-ff-border bg-ff-surface transition group-hover:border-ff-blue group-hover:bg-ff-surface-2">
+                  <span className="flex h-9 w-9 items-center justify-center border border-ff-border bg-ff-surface transition group-hover:border-ff-blue group-hover:bg-ff-surface-2">
                     <Icon size={16} className="transition group-hover:text-ff-blue" />
                   </span>
                   <span className="text-sm">{label}</span>
@@ -266,7 +266,7 @@ export function Contact() {
               href="https://wa.me/260966451446?text=Hello%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20zed-forge."
               target="_blank"
               rel="noopener noreferrer"
-              className="focus-ring mt-6 flex w-full items-center justify-center gap-2 rounded-md bg-[#25D366] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#1ebe5d]"
+              className="focus-ring mt-6 flex w-full items-center justify-center gap-2 bg-[#25D366] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#1ebe5d]"
             >
               <MessageCircle size={16} />
               Message us on WhatsApp

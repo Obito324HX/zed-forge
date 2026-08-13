@@ -8,13 +8,13 @@ export function Skills() {
     <section className="border-y border-ff-border bg-ff-surface/40 px-4 py-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <SectionHeader eyebrow="Technical Skills" title="The tools we build with" />
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-px overflow-hidden border border-ff-border bg-ff-border sm:grid-cols-2">
           {stackGroups.map((group) => (
-            <div key={group.title} className={`rounded-lg border bg-ff-surface p-5 ${group.featured ? "border-ff-blue shadow-glow" : "border-ff-border"}`}>
+            <div key={group.title} className={`bg-ff-surface p-5 ${group.featured ? "ring-1 ring-inset ring-ff-blue" : ""}`}>
               <h3 className="font-heading text-sm font-bold text-ff-text">{group.title}</h3>
               <div className="mt-4 flex flex-wrap gap-2">
                 {group.items.map((item) => (
-                  <span key={item} className="rounded-full border border-ff-border bg-ff-bg px-3 py-1 font-mono text-xs text-ff-muted">
+                  <span key={item} className="border border-ff-border bg-ff-bg px-3 py-1 font-mono text-xs text-ff-muted">
                     {item}
                   </span>
                 ))}
@@ -26,7 +26,7 @@ export function Skills() {
               )}
             </div>
           ))}
-          <div className="rounded-lg border border-ff-border bg-ff-surface p-5 sm:col-span-2">
+          <div className="bg-ff-surface p-5 sm:col-span-2">
             <span className="text-sm text-ff-muted">Currently learning: </span>
             <span className="text-sm font-medium text-ff-text">{learning.join(" · ")}</span>
           </div>

@@ -37,7 +37,7 @@ export function Process() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.12, duration: 0.5 }}
-              className="relative rounded-lg border border-ff-border bg-ff-bg p-6 z-10 transition hover:border-ff-blue hover:bg-ff-surface-2"
+              className="relative border border-ff-border bg-ff-bg p-6 z-10 transition hover:border-ff-blue hover:bg-ff-surface-2"
             >
               <div className="font-heading text-5xl font-bold text-ff-muted/40">{number}</div>
               <h3 className="mt-5 font-heading text-xl font-bold text-ff-text">{title}</h3>
