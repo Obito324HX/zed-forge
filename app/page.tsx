@@ -9,6 +9,7 @@ import { Process } from "@/components/home/Process";
 import { Services } from "@/components/home/Services";
 import { Skills } from "@/components/home/Skills";
 import { SocialProof } from "@/components/home/SocialProof";
+import { Team } from "@/components/home/Team";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Process />
         <Skills />
         <About />
+        <Team />
         <Blog />
         <Contact />
       </main>

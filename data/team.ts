@@ -1,0 +1,23 @@
+export type TeamMember = {
+  name: string;
+  role: string;
+  initials: string;
+};
+
+export const team: TeamMember[] = [
+  {
+    name: "Chanda Simbaya",
+    role: "Founder",
+    initials: "CS"
+  },
+  {
+    name: "Cletus Bwalya",
+    role: "Co-Founder",
+    initials: "CB"
+  },
+  {
+    name: "Sharon Mutale",
+    role: "Brand Ambassador",
+    initials: "SM"
+  }
+];
