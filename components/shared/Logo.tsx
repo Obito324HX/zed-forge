@@ -42,12 +42,10 @@ export function Logo({ className, showTagline = false, size = "md" }: LogoProps)
           className="fill-[#111827] dark:fill-[#F0F0F5]"
           fillRule="evenodd"
         />
-        {/* Blue separator */}
-        <line
-          x1="182" y1="12" x2="182" y2="60"
-          stroke="#3B82F6"
-          strokeWidth="2.5"
-          strokeLinecap="round"
+        {/* Strike-spark separator — hammer-strike spark standing in for the hyphen */}
+        <path
+          d="M184 8 L192 8 L180 34 L188 34 L176 64 L182 36 L174 36 Z"
+          fill="#C1552C"
         />
         {/* F */}
         <path
