@@ -11,12 +11,16 @@ export const stackGroups: StackGroup[] = [
     items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Next.js"],
   },
   {
+    title: "Backend & Data",
+    items: ["Python", "Flask", "PostgreSQL", "SQLAlchemy", "JWT Authentication", "REST APIs"],
+  },
+  {
     title: "Styling",
     items: ["Tailwind CSS", "shadcn/ui", "Framer Motion"],
   },
   {
     title: "Tools",
-    items: ["Git", "GitHub", "Vercel", "Figma", "VS Code"],
+    items: ["Git", "GitHub", "Vercel", "Render", "Figma", "VS Code"],
   },
   {
     title: "AI-Assisted Development",
