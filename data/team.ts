@@ -9,7 +9,8 @@ export const team: TeamMember[] = [
   {
     name: "Chanda Simbaya",
     role: "Founder",
-    initials: "CS"
+    initials: "CS",
+    photo: "/team/chanda-simbaya.jpg"
   },
   {
     name: "Cletus Bwalya",
