@@ -1,5 +1,5 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="64" height="64" rx="14" fill="#0A0A0F"/>
+  <rect width="64" height="64" fill="#0A0A0F"/>
   <text x="10" y="42" font-family="Arial, sans-serif" font-weight="700" font-size="26" fill="#F0F0F5">Z</text>
   <path d="M33 16 L39 16 L31 30 L37 30 L27 48 L31 32 L25 32 Z" fill="#C1552C"/>
   <text x="38" y="42" font-family="Arial, sans-serif" font-weight="700" font-size="26" fill="#F0F0F5">F</text>
