@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { team } from "@/data/team";
 import { SectionHeader } from "./SectionHeader";
 
@@ -19,9 +20,15 @@ export function Team() {
               transition={{ delay: index * 0.08 }}
               className="flex flex-col items-center bg-ff-surface p-8 text-center"
             >
-              <div className="flex h-20 w-20 items-center justify-center bg-gradient-to-br from-ff-blue to-ff-cyan font-heading text-xl font-bold text-white">
-                {member.initials}
-              </div>
+              {member.photo ? (
+                <div className="relative h-20 w-20 overflow-hidden">
+                  <Image src={member.photo} alt={member.name} fill className="object-cover" />
+                </div>
+              ) : (
+                <div className="flex h-20 w-20 items-center justify-center bg-gradient-to-br from-ff-blue to-ff-cyan font-heading text-xl font-bold text-white">
+                  {member.initials}
+                </div>
+              )}
               <h3 className="mt-5 font-heading text-lg font-bold text-ff-text">{member.name}</h3>
               <p className="mt-1 text-sm text-ff-muted">{member.role}</p>
             </motion.div>

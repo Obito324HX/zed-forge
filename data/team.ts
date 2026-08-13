@@ -2,6 +2,7 @@ export type TeamMember = {
   name: string;
   role: string;
   initials: string;
+  photo?: string;
 };
 
 export const team: TeamMember[] = [
@@ -18,6 +19,7 @@ export const team: TeamMember[] = [
   {
     name: "Sharon Mutale",
     role: "Brand Ambassador",
-    initials: "SM"
+    initials: "SM",
+    photo: "/team/sharon-mutale.jpg"
   }
 ];
