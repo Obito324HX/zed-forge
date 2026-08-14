@@ -31,12 +31,10 @@ export function CaseStudyLayout({ study }: { study: CaseStudy }) {
  View Live Demo <ExternalLink size={15} />
  </a>
  <a
- href="https://github.com/51m2y"
- target="_blank"
- rel="noopener noreferrer"
- className="focus-ring inline-flex items-center gap-2 border border-ff-border px-4 py-2 text-sm font-semibold text-ff-text"
+ href="/#contact"
+ className="focus-ring inline-flex items-center gap-2 border border-ff-border px-4 py-2 text-sm font-semibold text-ff-text hover:bg-ff-surface-2"
  >
- View on GitHub <ExternalLink size={15} />
+ Start a Similar Project <ExternalLink size={15} />
  </a>
  </div>
  </header>

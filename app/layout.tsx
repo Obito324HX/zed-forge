@@ -29,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
  description: "zed-forge is a design and development studio building websites, web applications, and SaaS platforms.",
  email: "zedforgezm@gmail.com",
  telephone: "+260966451446",
+ sameAs: ["https://www.instagram.com/zedforge.zm"],
  address: {
  "@type": "PostalAddress",
  addressCountry: "ZM"

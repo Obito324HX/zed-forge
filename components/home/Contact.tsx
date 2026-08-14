@@ -1,7 +1,7 @@
 "use client";
 
 import emailjs from "@emailjs/browser";
-import { Github, Linkedin, Mail, MessageCircle, Phone } from "lucide-react";
+import { Instagram, Mail, MessageCircle, Phone } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { FormEvent, useRef, useState } from "react";
 import { SectionHeader } from "./SectionHeader";
@@ -30,22 +30,16 @@ const contactItems = [
  ariaLabel: "Message zed-forge on WhatsApp",
  },
  {
- href: "tel:+260976034685",
+ href: "tel:+260966451446",
  icon: Phone,
- label: "+260 976 034 685",
+ label: "+260 966 451 446",
  ariaLabel: "Call zed-forge",
  },
  {
- href: "https://github.com/51m2y",
- icon: Github,
- label: "github.com/51m2y",
- ariaLabel: "zed-forge on GitHub",
- },
- {
- href: "https://www.linkedin.com/in/chanda-simbaya-451947270",
- icon: Linkedin,
- label: "linkedin.com/in/chanda-simbaya",
- ariaLabel: "zed-forge on LinkedIn",
+ href: "https://www.instagram.com/zedforge.zm",
+ icon: Instagram,
+ label: "@zedforge.zm",
+ ariaLabel: "zed-forge on Instagram",
  },
 ] as const;
 

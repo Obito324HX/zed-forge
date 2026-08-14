@@ -49,11 +49,11 @@ export function Hero() {
         </div>
 
         <motion.div variants={item} className="border border-ff-border bg-ff-surface p-8">
-          <p className="font-heading text-5xl font-extrabold text-ff-text">4</p>
-          <p className="mt-1 text-sm text-ff-muted">projects shipped</p>
+          <p className="font-heading text-2xl font-bold text-ff-text">Full-stack,</p>
+          <p className="font-heading text-2xl font-bold text-ff-cyan">design to deployment.</p>
           <div className="my-6 h-px bg-ff-border" />
-          <p className="font-heading text-5xl font-extrabold text-ff-text">3</p>
-          <p className="mt-1 text-sm text-ff-muted">industries served</p>
+          <p className="font-heading text-2xl font-bold text-ff-text">AI-accelerated,</p>
+          <p className="font-heading text-2xl font-bold text-ff-cyan">without cutting corners.</p>
           <div className="my-6 h-px bg-ff-border" />
           <p className="font-heading text-2xl font-bold text-ff-text">Design-led,</p>
           <p className="font-heading text-2xl font-bold text-ff-cyan">engineering-driven.</p>

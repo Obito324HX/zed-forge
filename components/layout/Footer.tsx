@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, MessageCircle } from "lucide-react";
+import { Instagram, MessageCircle } from "lucide-react";
 import { Logo } from "@/components/shared/Logo";
 
 const links = [
@@ -36,22 +36,13 @@ export function Footer() {
  <h2 className="font-heading text-sm font-semibold text-ff-text">Social</h2>
  <div className="mt-4 flex items-center gap-4">
  <a
- href="https://github.com/51m2y"
+ href="https://www.instagram.com/zedforge.zm"
  target="_blank"
  rel="noopener noreferrer"
- aria-label="zed-forge on GitHub"
+ aria-label="zed-forge on Instagram"
  className="focus-ring text-ff-muted transition hover:text-ff-text"
  >
- <Github size={18} />
- </a>
- <a
- href="https://www.linkedin.com/in/chanda-simbaya-451947270"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="zed-forge on LinkedIn"
- className="focus-ring text-ff-muted transition hover:text-ff-text"
- >
- <Linkedin size={18} />
+ <Instagram size={18} />
  </a>
  <a
  href="https://wa.me/260966451446"

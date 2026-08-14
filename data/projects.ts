@@ -15,7 +15,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "bella-vista",
-    category: "Personal Project · Restaurant",
+    category: "Concept Build · Restaurant",
     filter: ["Websites", "Business Solution"],
     name: "Bella Vista",
     description:
@@ -29,7 +29,7 @@ export const projects: Project[] = [
   },
   {
     slug: "ironforge",
-    category: "Personal Project · Fitness & Wellness",
+    category: "Concept Build · Fitness & Wellness",
     filter: ["Websites", "Business Solution"],
     name: "IronForge Fitness",
     description:
@@ -43,7 +43,7 @@ export const projects: Project[] = [
   },
   {
     slug: "carepoint",
-    category: "Personal Project · Healthcare",
+    category: "Concept Build · Healthcare",
     filter: ["Websites", "Business Solution"],
     name: "CarePoint Medical Center",
     description:
@@ -57,7 +57,7 @@ export const projects: Project[] = [
   },
   {
     slug: "clientflow",
-    category: "Personal Project · SaaS / Web Application",
+    category: "Concept Build · SaaS / Web Application",
     filter: ["SaaS", "Dashboard", "Business Solution"],
     name: "ClientFlow CRM",
     description:
