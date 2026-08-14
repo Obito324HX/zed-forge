@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import { CommandPalette } from "@/components/shared/CommandPalette";
 import { ScrollProgress } from "@/components/shared/ScrollProgress";
@@ -15,15 +16,32 @@ export const metadata: Metadata = {
  title: "zed-forge — Web Development Studio Based in Zambia",
  description: "Modern websites and web apps for growing businesses.",
  url: "https://zed-forge-xi.vercel.app",
- siteName: "zed-forge",
- images: [{ url: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1200" }]
+ siteName: "zed-forge"
  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+ const organizationSchema = {
+ "@context": "https://schema.org",
+ "@type": "Organization",
+ name: "zed-forge",
+ url: "https://zed-forge-xi.vercel.app",
+ description: "zed-forge is a design and development studio building websites, web applications, and SaaS platforms.",
+ email: "zedforgezm@gmail.com",
+ telephone: "+260966451446",
+ address: {
+ "@type": "PostalAddress",
+ addressCountry: "ZM"
+ }
+ };
+
  return (
  <html lang="en" suppressHydrationWarning>
  <head>
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+ />
  <script
  dangerouslySetInnerHTML={{
  __html: `
@@ -47,6 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
  <ScrollProgress />
  {children}
  <CommandPalette />
+ <Analytics />
  </body>
  </html>
  );

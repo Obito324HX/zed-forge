@@ -7,9 +7,9 @@ import { FormEvent, useRef, useState } from "react";
 import { SectionHeader } from "./SectionHeader";
 import { cn } from "@/lib/utils";
 
-const SERVICE_ID = "service_98jelub";
-const TEMPLATE_ID = "template_we38vxr";
-const PUBLIC_KEY = "fLqd5qS0BGupo6R-z";
+const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "service_98jelub";
+const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "template_we38vxr";
+const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "fLqd5qS0BGupo6R-z";
 
 const projectTypes = ["Business Website", "Web Application", "SaaS Platform", "Something Else"];
 const scopes = ["Small business site", "Growing business project", "Custom web application", "Full SaaS product", "Not sure yet"];
