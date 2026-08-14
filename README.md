@@ -1,27 +1,25 @@
-# zed forge Portfolio
+# zed-forge
 
-Personal portfolio website for simzy — web developer and digital solutions
-builder based in Lusaka, Zambia.
+Marketing and studio site for zed-forge, a design and development studio.
 
 ## Stack
 
-Next.js 14 (App Router) · TypeScript · Tailwind CSS · shadcn/ui ·
-Framer Motion · cmdk · Lucide React · Geist + Inter fonts
+Next.js (App Router) · TypeScript · Tailwind CSS · shadcn/ui ·
+Framer Motion · cmdk · Lucide React · Geist fonts
 
-## Features
+## Structure
 
-- 6 pages: main portfolio + 4 case studies + thank you
-- Dark mode default (localStorage-persisted, no flash)
-- Framer Motion animations throughout (prefers-reduced-motion safe)
-- Command palette (Cmd+K)
-- Scroll progress bar
-- Project filter tabs
-- Animated skill bars + counter stats
-- Project brief contact form
-- Availability badge with pulse animation
-- Fully responsive: mobile, tablet, desktop
-- SEO optimised for "web developer Lusaka Zambia"
+- Homepage: hero, selected work, services, process, about, team, contact
+- Case study pages for each featured project (`/work/[slug]`)
+- Project brief contact form (EmailJS)
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
 
 ## Deploy
 
-Push to GitHub → import to Vercel → live in 60 seconds.
+Connected to Vercel — pushes to `main` deploy automatically.

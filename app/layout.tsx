@@ -6,6 +6,7 @@ import { CommandPalette } from "@/components/shared/CommandPalette";
 import { ScrollProgress } from "@/components/shared/ScrollProgress";
 
 export const metadata: Metadata = {
+ metadataBase: new URL("https://zed-forge-xi.vercel.app"),
  title: "zed-forge | Web Development Studio Based in Zambia",
  description:
  "zed-forge builds modern websites, web applications, and SaaS platforms for businesses across Zambia and beyond. Get a quote today.",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
  openGraph: {
  title: "zed-forge — Web Development Studio Based in Zambia",
  description: "Modern websites and web apps for growing businesses.",
- url: "https://zed-forge.vercel.app",
+ url: "https://zed-forge-xi.vercel.app",
  siteName: "zed-forge",
  images: [{ url: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1200" }]
  }
