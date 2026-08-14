@@ -23,7 +23,6 @@ export const services = [
     description:
       "Scalable software products built for growth. Full product design, frontend development, and deployment-ready code.",
     examples: ["CRM Platforms", "Analytics Tools", "Client Portals", "Marketplaces"],
-    cta: "Get a Quote",
-    badge: "Most Popular for Agencies"
+    cta: "Get a Quote"
   }
 ];

@@ -21,13 +21,6 @@ export function CaseStudyLayout({ study }: { study: CaseStudy }) {
  <p className="font-mono text-xs uppercase tracking-[0.2em] text-ff-cyan">{study.category}</p>
  <h1 className="mt-4 font-heading text-5xl font-extrabold text-ff-text sm:text-6xl">{study.title}</h1>
  <p className="mt-5 max-w-3xl text-lg leading-8 text-ff-muted">{study.tagline}</p>
- <div className="mt-6 flex flex-wrap gap-2">
- {study.stack.map((item) => (
- <span key={item} className="border border-ff-border bg-ff-surface px-3 py-1 font-mono text-xs text-ff-muted">
- {item}
- </span>
- ))}
- </div>
  <div className="mt-8 flex flex-wrap gap-3">
  <a
  href={study.liveUrl}

@@ -13,7 +13,6 @@ export function Services() {
               <article key={service.name} className="relative flex flex-col bg-ff-surface p-8 transition hover:bg-ff-surface-2">
                 <div className="flex items-start justify-between">
                   <span className="font-mono text-sm text-ff-muted">{String(index + 1).padStart(2, "0")}</span>
-                  {service.badge ? <span className="border border-ff-blue/40 px-3 py-1 text-xs text-ff-cyan">{service.badge}</span> : null}
                 </div>
                 <Icon className="mt-6 text-ff-blue" size={28} />
                 <h3 className="mt-6 font-heading text-2xl font-bold text-ff-text">{service.name}</h3>

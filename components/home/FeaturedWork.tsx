@@ -74,11 +74,6 @@ export function FeaturedWork() {
                         </span>
                       ))}
                     </div>
-                    <div className="mt-5 flex flex-wrap gap-2 font-mono text-xs text-ff-muted">
-                      {project.stack.map((item) => (
-                        <span key={item}>{item}</span>
-                      ))}
-                    </div>
                     <div className="mt-8 flex flex-wrap gap-3">
                       <a
                         href={project.liveUrl}
