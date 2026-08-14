@@ -8,13 +8,13 @@ export type TeamMember = {
 export const team: TeamMember[] = [
   {
     name: "Chanda Simbaya",
-    role: "Creative Director",
+    role: "Creative Lead",
     initials: "CS",
     photo: "/team/chanda-simbaya.jpg"
   },
   {
     name: "Cletus Bwalya",
-    role: "Technical Director",
+    role: "Lead Developer",
     initials: "CB"
   },
   {
