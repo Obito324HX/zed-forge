@@ -17,7 +17,7 @@ export function Footer() {
  <Link href="/" className="inline-flex text-ff-text">
  <Logo size="sm" />
  </Link>
- <p className="mt-4 text-sm text-ff-muted">Built in Lusaka, Zambia</p>
+ <p className="mt-4 text-sm text-ff-muted">Built in Zambia. Working worldwide.</p>
  <p className="mt-3 inline-flex items-center gap-2 border border-ff-border px-3 py-1 text-sm text-ff-text">
  <span className="pulse-dot" /> Available for new projects
  </p>

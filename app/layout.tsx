@@ -6,13 +6,13 @@ import { CommandPalette } from "@/components/shared/CommandPalette";
 import { ScrollProgress } from "@/components/shared/ScrollProgress";
 
 export const metadata: Metadata = {
- title: "zed-forge | Web Development Studio in Lusaka, Zambia",
+ title: "zed-forge | Web Development Studio Based in Zambia",
  description:
- "zed-forge builds modern websites, web applications, and SaaS platforms for businesses in Lusaka, Zambia. Get a quote today.",
- keywords: ["web developer Lusaka", "website design Zambia", "zed-forge", "web development Lusaka"],
+ "zed-forge builds modern websites, web applications, and SaaS platforms for businesses across Zambia and beyond. Get a quote today.",
+ keywords: ["web developer Zambia", "website design Africa", "zed-forge", "web development Zambia"],
  openGraph: {
- title: "zed-forge — Web Development Studio in Lusaka, Zambia",
- description: "Modern websites and web apps for Lusaka businesses.",
+ title: "zed-forge — Web Development Studio Based in Zambia",
+ description: "Modern websites and web apps for growing businesses.",
  url: "https://zed-forge.vercel.app",
  siteName: "zed-forge",
  images: [{ url: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1200" }]

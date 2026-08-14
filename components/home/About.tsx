@@ -7,10 +7,10 @@ export function About() {
   return (
     <section id="about" className="px-4 py-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        <SectionHeader eyebrow="About zed-forge" title="Built in Lusaka. Built for Lusaka." />
+        <SectionHeader eyebrow="About zed-forge" title="Built in Zambia. Built for the world." />
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="space-y-5 text-base leading-7 text-ff-muted">
-            <p className="text-lg text-ff-text">We&apos;re zed-forge — a web development studio based in Lusaka, Zambia.</p>
+            <p className="text-lg text-ff-text">We&apos;re zed-forge — a web development studio built in Zambia, working with clients locally and abroad.</p>
             <p>We started zed-forge with a straightforward belief: businesses in Zambia deserve websites and digital tools that match the quality available anywhere in the world.</p>
             <p>Too many local businesses are either paying too much for too little, or going without a digital presence entirely.</p>
             <p>zed-forge exists to change that.</p>

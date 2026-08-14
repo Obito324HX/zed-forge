@@ -1,7 +1,7 @@
 import { SectionHeader } from "./SectionHeader";
 
 const articles = [
- ["Business", "Why Most Lusaka Businesses Still Don't Have a Website Worth Showing", "4 min read"],
+ ["Business", "Why Most Zambian Businesses Still Don't Have a Website Worth Showing", "4 min read"],
  ["Development", "The AI-Assisted Workflow I Use to Ship Projects 3x Faster", "5 min read"],
  ["Portfolio", "What I Learned Building 4 Demo Sites in One Month", "6 min read"]
 ];

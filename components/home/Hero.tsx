@@ -35,7 +35,7 @@ export function Hero() {
           </motion.h1>
 
           <motion.p variants={item} className="mt-8 max-w-xl text-lg leading-8 text-ff-muted">
-            We&apos;re zed-forge, a web development studio based in Lusaka, Zambia. We work with local businesses to design and build websites, web applications, and SaaS platforms that look world-class and actually drive results.
+            We&apos;re zed-forge, a web development studio built in Zambia. We design and build websites, web applications, and SaaS platforms for businesses that want to compete on a world-class level.
           </motion.p>
 
           <motion.div variants={item} className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -55,7 +55,7 @@ export function Hero() {
           <p className="font-heading text-5xl font-extrabold text-ff-text">3</p>
           <p className="mt-1 text-sm text-ff-muted">industries served</p>
           <div className="my-6 h-px bg-ff-border" />
-          <p className="font-heading text-2xl font-bold text-ff-text">Lusaka-based,</p>
+          <p className="font-heading text-2xl font-bold text-ff-text">Zambia-rooted,</p>
           <p className="font-heading text-2xl font-bold text-ff-cyan">globally capable.</p>
         </motion.div>
       </motion.div>

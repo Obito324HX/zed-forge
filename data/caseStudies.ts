@@ -167,7 +167,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       ["Onboarding Tour", "Makes complex software approachable."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "We can build full SaaS applications, not just marketing sites. This is the project that separates zed-forge from typical website providers in Lusaka.",
+      "We can build full SaaS applications, not just marketing sites. This is the project that separates zed-forge from typical website providers in the region.",
     mockups: [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80",

@@ -103,7 +103,7 @@ export function Contact() {
  <SectionHeader
  eyebrow="Get in Touch"
  title="Let's build something for your business"
- sub="Based in Lusaka. Working with businesses across Zambia."
+ sub="Based in Zambia. Working with businesses across Africa and beyond."
  />
  <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
  <div className="border border-ff-border bg-ff-surface p-6">
