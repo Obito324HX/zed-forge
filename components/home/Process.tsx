@@ -5,10 +5,10 @@ import { useRef } from "react";
 import { SectionHeader } from "./SectionHeader";
 
 const steps = [
-  ["01", "Discovery", "We talk about your business, goals, and what you need. We ask the right questions so nothing gets built twice."],
+  ["01", "Discovery", "We start by understanding your business, goals, and constraints. The right questions upfront save rework later."],
   ["02", "Design & Plan", "We map out the structure, pages, and user flow before writing a single line of code."],
-  ["03", "Build", "We build fast using a professional AI-assisted workflow, delivering clean, maintainable code on a clear timeline."],
-  ["04", "Launch & Support", "We deploy, test across devices, and hand over everything you need to manage your site confidently."]
+  ["03", "Build", "We build fast with an AI-accelerated workflow, without sacrificing clean, maintainable code or a clear timeline."],
+  ["04", "Launch & Support", "We deploy, test thoroughly across devices, and hand over a system you can actually manage, not a black box."]
 ];
 
 export function Process() {

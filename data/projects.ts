@@ -19,7 +19,7 @@ export const projects: Project[] = [
     filter: ["Websites", "Business Solution"],
     name: "Bella Vista",
     description:
-      "A modern African fusion restaurant website for Lusaka's dining scene. Full menu system, table reservations, gallery, and a brand story built to attract real customers.",
+      "A modern African fusion restaurant website built to convert visitors into diners. Full menu system, table reservations, gallery, and a brand story built to attract real customers.",
     features: ["Menu System", "Reservation System", "Mobile Responsive", "Dark Mode"],
     stack: ["HTML", "CSS", "JavaScript"],
     image:
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     filter: ["Websites", "Business Solution"],
     name: "IronForge Fitness",
     description:
-      "A premium gym website for Lusaka's Rhodespark area. Membership plans, trainer profiles, class schedules, and a goal quiz that funnels visitors into the right plan.",
+      "A premium gym website built to convert visitors into members. Membership plans, trainer profiles, class schedules, and a goal quiz that funnels visitors into the right plan.",
     features: ["Membership Plans", "Class Schedule", "Trainer Profiles", "Goal Quiz"],
     stack: ["HTML", "CSS", "JavaScript"],
     image:
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     filter: ["Websites", "Business Solution"],
     name: "CarePoint Medical Center",
     description:
-      "A trust-focused healthcare website for a multi-specialty clinic in Roma, Lusaka. Doctor profiles, appointment booking, symptom checker, and patient portal mockup.",
+      "A trust-focused healthcare website for a multi-specialty clinic. Doctor profiles, appointment booking, symptom checker, and patient portal mockup.",
     features: ["Appointment Booking", "Doctor Directory", "Symptom Checker", "Accessibility"],
     stack: ["HTML", "CSS", "JavaScript"],
     image:

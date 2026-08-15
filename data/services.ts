@@ -5,7 +5,7 @@ export const services = [
     icon: Globe,
     name: "Business Websites",
     description:
-      "Modern, responsive websites that make your business look credible, attract customers, and work perfectly on every device.",
+      "Modern, responsive websites that establish credibility, attract customers, and perform flawlessly on every device.",
     examples: ["Restaurants", "Clinics", "Gyms", "Schools", "Churches", "Lodges"],
     cta: "Get a Quote"
   },

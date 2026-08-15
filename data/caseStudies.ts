@@ -24,7 +24,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     slug: "bella-vista",
     title: "Bella Vista Restaurant",
     category: "Restaurant",
-    tagline: "Modern African fusion restaurant website for Lusaka's dining scene.",
+    tagline: "Modern African fusion restaurant website built to convert visitors into diners.",
     image: bySlug["bella-vista"].image,
     stack: bySlug["bella-vista"].stack,
     meta: [
@@ -33,24 +33,24 @@ export const caseStudies: Record<string, CaseStudy> = {
       { label: "Status", value: "Complete — Live Demo" }
     ],
     challenge: [
-      "Restaurant owners in Lusaka often have outdated or no web presence. This demo shows what a modern restaurant site looks like: one that builds trust, drives reservations, and reflects the quality of the food.",
+      "Most independently owned restaurants have outdated or no web presence at all. This demo shows what a modern restaurant site looks like: one that builds trust, drives reservations, and reflects the quality of the food.",
       "The target client is a restaurant, cafe, lodge, or food business that needs customers to understand the atmosphere before they walk through the door."
     ],
     approach: [
       "Built as a Modern African Fusion brand, not a generic template.",
-      "Localized with Lusaka address details and +260 WhatsApp contact patterns.",
+      "Includes address details and WhatsApp-based booking, easy to localize to any market.",
       "Added menu filtering, reservation form, Instagram grid, press bar, and persistent dark mode."
     ],
     features: [
       ["Menu Filter", "Guests can browse categories quickly."],
       ["Reservation Form", "Clear path from interest to table booking."],
-      ["Instagram Grid", "Makes the restaurant feel active and visual."],
+      ["Instagram Grid", "Signals an active, well-run business at a glance."],
       ["Dark Mode", "Premium dining mood across all pages."],
-      ["WhatsApp CTA", "Local booking behavior built into the flow."],
-      ["SVG Logo", "Brand detail without heavy assets."]
+      ["WhatsApp CTA", "Matches how customers actually prefer to book."],
+      ["SVG Logo", "Scalable brand mark with zero performance cost."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "Any restaurant, cafe, lodge, or food business in Lusaka can see exactly what their website could look like and want it immediately.",
+      "Any restaurant, cafe, lodge, or food business can see exactly what their website could look like and want it immediately.",
     mockups: [
       "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
@@ -72,7 +72,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       { label: "Status", value: "Complete — Live Demo" }
     ],
     challenge: [
-      "Gyms and fitness centers need websites that match the energy of their brand and convert visitors into members. Most gym sites in Lusaka are either outdated or non-existent.",
+      "Gyms and fitness centers need websites that match the energy of their brand and convert visitors into members. Most gym sites are either outdated or non-existent.",
       "This concept gives a fitness business a digital presence that feels as strong as its facility."
     ],
     approach: [
@@ -82,14 +82,14 @@ export const caseStudies: Record<string, CaseStudy> = {
     ],
     features: [
       ["Goal Quiz", "Routes prospects to the right plan."],
-      ["Countdown Timer", "Adds launch and trial urgency."],
+      ["Countdown Timer", "Creates urgency around limited-time offers."],
       ["Before/After Slider", "Makes transformation outcomes tangible."],
-      ["Class Schedule", "Shows a real operating rhythm."],
+      ["Class Schedule", "Gives visitors a clear sense of how the gym runs day to day."],
       ["Membership Toggle", "Compares plans without friction."],
-      ["BMI Calculator", "Adds useful engagement."]
+      ["BMI Calculator", "Gives visitors a reason to interact before they commit."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "Any gym, fitness center, sports club, or wellness brand in Zambia can see a premium version of their digital presence.",
+      "Any gym, fitness center, sports club, or wellness brand can see a premium version of their digital presence.",
     mockups: [
       "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=900&q=80",
@@ -102,7 +102,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     slug: "carepoint",
     title: "CarePoint Medical Center",
     category: "Healthcare",
-    tagline: "Trust-first healthcare website for a multi-specialty clinic in Roma.",
+    tagline: "Trust-first healthcare website for a multi-specialty clinic.",
     image: bySlug.carepoint.image,
     stack: bySlug.carepoint.stack,
     meta: [
@@ -128,7 +128,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       ["Appointment Booking", "Turns trust into action."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "Any private clinic, dental practice, physiotherapy center, or specialist practice in Lusaka can see a ready-to-launch digital presence.",
+      "Any private clinic, dental practice, physiotherapy center, or specialist practice can see a ready-to-launch digital presence.",
     mockups: [
       "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=900&q=80",
@@ -167,7 +167,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       ["Onboarding Tour", "Makes complex software approachable."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "We can build full SaaS applications, not just marketing sites. This is the project that separates zed-forge from typical website providers in the region.",
+      "We can build full SaaS applications, not just marketing sites. This is the project that separates zed-forge from typical website providers.",
     mockups: [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80",

@@ -4,7 +4,7 @@ import { caseStudies } from "@/data/caseStudies";
 
 export const metadata: Metadata = {
   title: "IronForge Fitness — Case Study | zed-forge",
-  description: "A premium gym website for Lusaka's Rhodespark area."
+  description: "A premium gym website built to convert visitors into members."
 };
 
 export default function Page() {

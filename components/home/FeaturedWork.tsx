@@ -16,7 +16,7 @@ export function FeaturedWork() {
   return (
     <section id="work" className="px-4 py-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        <SectionHeader eyebrow="Selected Work" title="Projects built to impress clients and win business" />
+        <SectionHeader eyebrow="Selected Work" title="Work that proves what we can build" />
         
         {/* Animated Filter Tabs */}
         <div className="mb-10 flex flex-wrap gap-1.5 border border-ff-border bg-ff-surface/40 p-1 max-w-max">
