@@ -173,7 +173,45 @@ export const caseStudies: Record<string, CaseStudy> = {
       "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80"
     ],
-    next: "bella-vista",
+    next: "edupulse",
     liveUrl: bySlug.clientflow.liveUrl
+  },
+  edupulse: {
+    slug: "edupulse",
+    title: "EduPulse",
+    category: "Education · SaaS Platform",
+    tagline: "A real school management platform, not a mockup, in active development.",
+    image: bySlug.edupulse.image,
+    stack: bySlug.edupulse.stack,
+    meta: [
+      { label: "Timeline", value: "Ongoing" },
+      { label: "Type", value: "SaaS Platform" },
+      { label: "Status", value: "In Active Development — Live" }
+    ],
+    challenge: [
+      "Schools and training institutions track attendance, grades, and student risk across spreadsheets and disconnected tools, with no single live view of who needs help.",
+      "The platform needed to serve multiple institutions on one system without any institution ever seeing another's data, while staying fast enough for a lecturer to check on a phone between classes.",
+    ],
+    approach: [
+      "Built as a genuine multi-tenant system: institutions register with a join code, and every account, query, and permission is scoped to enforce full tenant isolation.",
+      "JWT-based authentication with role-based access across super-admin, admin, lecturer, and student roles.",
+      "A command palette with real search across students, courses, and institutions, not a hardcoded demo list, plus a mobile-first bottom nav so the product actually works on the devices staff use day to day.",
+    ],
+    features: [
+      ["Multi-Tenant Architecture", "Every institution's data is fully isolated, enforced at the query level."],
+      ["JWT Authentication", "Role-based access across super-admin, admin, lecturer, and student accounts."],
+      ["Institutional Pulse", "A live composite view of attendance, grades, and open alerts per institution."],
+      ["Command Palette", "Real search across students, courses, and institutions, not a hardcoded demo."],
+      ["Configurable Alerts", "Each institution sets its own thresholds for flagging students at risk."],
+      ["Mobile-First Nav", "A real bottom nav built for staff checking data between classes, not a desktop afterthought."]
+    ].map(([name, description]) => ({ name, description })),
+    demonstrates:
+      "This is live, evolving software with real backend architecture behind it, not a static demo. It's the clearest proof of the full-stack, security-conscious engineering the rest of our work is built on.",
+    mockups: [
+      "/case-studies/edupulse/login.jpg",
+      "/case-studies/edupulse/command-palette.jpg"
+    ],
+    next: "bella-vista",
+    liveUrl: bySlug.edupulse.liveUrl
   }
 };
