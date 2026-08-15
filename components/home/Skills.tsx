@@ -10,7 +10,7 @@ export function Skills() {
         <SectionHeader eyebrow="Technical Skills" title="The tools we build with" />
         <div className="grid gap-px overflow-hidden border border-ff-border bg-ff-border sm:grid-cols-2">
           {stackGroups.map((group) => (
-            <div key={group.title} className={`bg-ff-surface p-5 ${group.featured ? "ring-1 ring-inset ring-ff-blue" : ""}`}>
+            <div key={group.title} className={`bg-ff-surface p-5 ${group.featured ? "ring-1 ring-inset ring-ff-ember" : ""}`}>
               <h3 className="font-heading text-sm font-bold text-ff-text">{group.title}</h3>
               <div className="mt-4 flex flex-wrap gap-2">
                 {group.items.map((item) => (

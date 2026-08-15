@@ -13,15 +13,15 @@ export function Blog() {
  <SectionHeader eyebrow="Insights" title="Thinking out loud about web development and business" />
  <div className="grid gap-5 lg:grid-cols-3">
  {articles.map(([category, title, readTime]) => (
- <article key={title} className="border border-ff-border bg-ff-surface p-6 transition hover:border-ff-blue hover:bg-ff-surface-2">
- <span className="font-mono text-xs uppercase tracking-[0.18em] text-ff-cyan">{category}</span>
+ <article key={title} className="border border-ff-border bg-ff-surface p-6 transition hover:border-ff-ember hover:bg-ff-surface-2">
+ <span className="font-mono text-xs uppercase tracking-[0.18em] text-ff-gold">{category}</span>
  <h3 className="mt-4 font-heading text-xl font-bold leading-7 text-ff-text">{title}</h3>
  <p className="mt-4 text-sm text-ff-muted">{readTime}</p>
  <a
  href="https://www.linkedin.com/in/chanda-simbaya-451947270"
  target="_blank"
  rel="noopener noreferrer"
- className="mt-8 inline-flex text-sm font-semibold text-ff-text hover:text-ff-cyan"
+ className="mt-8 inline-flex text-sm font-semibold text-ff-text hover:text-ff-gold"
  >
  Read on LinkedIn ↗
  </a>
@@ -32,7 +32,7 @@ export function Blog() {
  href="https://www.linkedin.com/in/chanda-simbaya-451947270"
  target="_blank"
  rel="noopener noreferrer"
- className="mx-auto mt-8 inline-flex text-sm font-semibold text-ff-cyan"
+ className="mx-auto mt-8 inline-flex text-sm font-semibold text-ff-gold"
  >
  More on LinkedIn →
  </a>

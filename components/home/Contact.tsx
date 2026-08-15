@@ -227,7 +227,7 @@ export function Contact() {
  suppressHydrationWarning
  type="submit"
  disabled={status === "sending"}
- className="focus-ring bg-ff-blue px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-60 sm:col-span-2"
+ className="focus-ring bg-ff-ember px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-60 sm:col-span-2"
  >
  {status === "sending" ? "Sending..." : "Send Project Brief →"}
  </button>
@@ -249,8 +249,8 @@ export function Contact() {
  aria-label={ariaLabel}
  className="group flex items-center gap-3 text-ff-muted transition hover:text-ff-text"
  >
- <span className="flex h-9 w-9 items-center justify-center border border-ff-border bg-ff-surface transition group-hover:border-ff-blue group-hover:bg-ff-surface-2">
- <Icon size={16} className="transition group-hover:text-ff-blue" />
+ <span className="flex h-9 w-9 items-center justify-center border border-ff-border bg-ff-surface transition group-hover:border-ff-ember group-hover:bg-ff-surface-2">
+ <Icon size={16} className="transition group-hover:text-ff-ember" />
  </span>
  <span className="text-sm">{label}</span>
  </a>

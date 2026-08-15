@@ -5,7 +5,6 @@ import Link from "next/link";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
-import { ZedForgeBadge } from "@/components/shared/ZedForgeBadge";
 import { CaseStudy } from "@/data/caseStudies";
 
 export function CaseStudyLayout({ study }: { study: CaseStudy }) {
@@ -18,7 +17,7 @@ export function CaseStudyLayout({ study }: { study: CaseStudy }) {
  <ArrowLeft size={16} /> Back to Work
  </Link>
  <header className="mt-10">
- <p className="font-mono text-xs uppercase tracking-[0.2em] text-ff-cyan">{study.category}</p>
+ <p className="font-mono text-xs uppercase tracking-[0.2em] text-ff-gold">{study.category}</p>
  <h1 className="mt-4 font-heading text-5xl font-extrabold text-ff-text sm:text-6xl">{study.title}</h1>
  <p className="mt-5 max-w-3xl text-lg leading-8 text-ff-muted">{study.tagline}</p>
  <div className="mt-8 flex flex-wrap gap-3">
@@ -26,7 +25,7 @@ export function CaseStudyLayout({ study }: { study: CaseStudy }) {
  href={study.liveUrl}
  target="_blank"
  rel="noopener noreferrer"
- className="focus-ring inline-flex items-center gap-2 bg-ff-blue px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
+ className="focus-ring inline-flex items-center gap-2 bg-ff-ember px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
  >
  View Live Demo <ExternalLink size={15} />
  </a>
@@ -76,7 +75,7 @@ export function CaseStudyLayout({ study }: { study: CaseStudy }) {
  ))}
  </div>
  </section>
- <section className="mt-16 border border-ff-blue/40 bg-ff-blue/10 p-6">
+ <section className="mt-16 border border-ff-ember/40 bg-ff-ember/10 p-6">
  <h2 className="font-heading text-2xl font-bold text-ff-text">What This Demonstrates</h2>
  <p className="mt-3 leading-7 text-ff-muted">{study.demonstrates}</p>
  </section>
@@ -90,8 +89,7 @@ export function CaseStudyLayout({ study }: { study: CaseStudy }) {
  ))}
  </div>
  </section>
- <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-ff-border pt-8 sm:flex-row sm:items-center">
- <ZedForgeBadge />
+ <div className="mt-14 flex justify-end border-t border-ff-border pt-8">
  <Link href={`/work/${study.next}`} className="focus-ring border border-ff-border px-4 py-2 text-sm font-semibold text-ff-text hover:bg-ff-surface-2">
  Next project →
  </Link>

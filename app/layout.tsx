@@ -59,7 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
  <body className={`${GeistSans.variable} ${GeistMono.variable} font-body antialiased`}>
  <a
  href="#main"
- className="focus-ring sr-only z-[100] bg-ff-blue px-4 py-2 text-sm font-semibold text-white focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
+ className="focus-ring sr-only z-[100] bg-ff-ember px-4 py-2 text-sm font-semibold text-white focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
  >
  Skip to main content
  </a>

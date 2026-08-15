@@ -25,7 +25,7 @@ export function Team() {
                   <Image src={member.photo} alt={member.name} fill className="object-cover" />
                 </div>
               ) : (
-                <div className="flex aspect-square w-full items-center justify-center bg-gradient-to-br from-ff-blue to-ff-cyan font-heading text-5xl font-bold text-white">
+                <div className="flex aspect-square w-full items-center justify-center bg-gradient-to-br from-ff-ember to-ff-gold font-heading text-5xl font-bold text-white">
                   {member.initials}
                 </div>
               )}

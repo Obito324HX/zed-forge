@@ -102,7 +102,7 @@ export function Navbar() {
  <div className="hidden items-center gap-2 md:flex">
  <button
  onClick={openSearch}
- className="focus-ring mr-1 flex items-center gap-2 border border-ff-border bg-ff-surface px-3 py-1.5 text-xs text-ff-muted transition hover:border-ff-blue hover:text-ff-text"
+ className="focus-ring mr-1 flex items-center gap-2 border border-ff-border bg-ff-surface px-3 py-1.5 text-xs text-ff-muted transition hover:border-ff-ember hover:text-ff-text"
  aria-label="Open command palette"
  >
  <Search size={13} />
@@ -114,7 +114,7 @@ export function Navbar() {
  <ThemeToggle />
  <a
  href="/#contact"
- className="focus-ring bg-ff-blue px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
+ className="focus-ring bg-ff-ember px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
  >
  Start a Project →
  </a>
@@ -153,7 +153,7 @@ export function Navbar() {
  setOpen(false);
  openSearch();
  }}
- className="focus-ring flex items-center gap-2 border border-ff-border bg-ff-surface px-3 py-2 text-sm text-ff-muted transition hover:border-ff-blue hover:text-ff-text"
+ className="focus-ring flex items-center gap-2 border border-ff-border bg-ff-surface px-3 py-2 text-sm text-ff-muted transition hover:border-ff-ember hover:text-ff-text"
  >
  <Search size={16} />
  <span>Search</span>
@@ -163,7 +163,7 @@ export function Navbar() {
  <a
  href="/#contact"
  onClick={() => setOpen(false)}
- className="focus-ring bg-ff-blue px-4 py-2 text-sm font-semibold text-white"
+ className="focus-ring bg-ff-ember px-4 py-2 text-sm font-semibold text-white"
  >
  Start a Project →
  </a>

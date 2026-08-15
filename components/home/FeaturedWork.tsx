@@ -29,7 +29,7 @@ export function FeaturedWork() {
               {active === filter && (
                 <motion.div
                   layoutId="active-filter-tab"
-                  className="absolute inset-0 bg-ff-blue"
+                  className="absolute inset-0 bg-ff-ember"
                   transition={{ type: "spring", stiffness: 380, damping: 30 }}
                 />
               )}
@@ -52,7 +52,7 @@ export function FeaturedWork() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
-                className="group overflow-hidden border border-ff-border bg-ff-surface transition hover:border-ff-blue"
+                className="group overflow-hidden border border-ff-border bg-ff-surface transition hover:border-ff-ember"
                 style={{ boxShadow: `0 0 0 1px transparent, 0 0 50px ${project.accent}11` }}
               >
                 <div className={`grid gap-0 lg:grid-cols-5 ${index % 2 ? "lg:[&>*:first-child]:order-2" : ""}`}>
@@ -79,7 +79,7 @@ export function FeaturedWork() {
                         href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="focus-ring bg-ff-blue px-4 py-2 text-sm font-semibold text-white hover:bg-blue-500 transition-colors"
+                        className="focus-ring bg-ff-ember px-4 py-2 text-sm font-semibold text-white hover:bg-blue-500 transition-colors"
                       >
                         Live Demo ↗
                       </a>

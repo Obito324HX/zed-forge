@@ -13,7 +13,7 @@ export function About() {
             <p className="text-lg text-ff-text">zed-forge is a design and development studio. We build digital products for teams that want more than a template: clean code, sharp design, systems built to scale.</p>
             <p>We work fast without cutting corners, using an AI-accelerated workflow to deliver production-ready work on tight timelines.</p>
             <p>No bloated proposals. No agency theatre. Just work that ships and performs.</p>
-            <div className="border border-ff-blue/50 bg-ff-blue/10 p-5 text-ff-text">
+            <div className="border border-ff-ember/50 bg-ff-ember/10 p-5 text-ff-text">
               We build with the best tools available — including AI. It means faster delivery, cleaner code, and more time focused on what actually makes your project stand out.
             </div>
             <div className="grid gap-px overflow-hidden border border-ff-border bg-ff-border sm:grid-cols-2">

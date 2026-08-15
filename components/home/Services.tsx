@@ -14,7 +14,7 @@ export function Services() {
                 <div className="flex items-start justify-between">
                   <span className="font-mono text-sm text-ff-muted">{String(index + 1).padStart(2, "0")}</span>
                 </div>
-                <Icon className="mt-6 text-ff-blue" size={28} />
+                <Icon className="mt-6 text-ff-ember" size={28} />
                 <h3 className="mt-6 font-heading text-2xl font-bold text-ff-text">{service.name}</h3>
                 <p className="mt-4 flex-1 leading-7 text-ff-muted">{service.description}</p>
                 <div className="mt-6 flex flex-wrap gap-x-3 gap-y-1 text-xs text-ff-muted">
@@ -25,7 +25,7 @@ export function Services() {
                     </span>
                   ))}
                 </div>
-                <a href="/#contact" className="mt-8 inline-flex text-sm font-semibold text-ff-text hover:text-ff-cyan">
+                <a href="/#contact" className="mt-8 inline-flex text-sm font-semibold text-ff-text hover:text-ff-gold">
                   {service.cta} →
                 </a>
               </article>

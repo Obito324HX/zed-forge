@@ -15,7 +15,7 @@ export default function ThankYouPage() {
  <p className="mt-8 text-sm text-ff-muted">While you wait — explore the work:</p>
  <div className="mt-5 flex flex-wrap justify-center gap-2">
  {projects.map((project) => (
- <Link key={project.slug} href={`/work/${project.slug}`} className="border border-ff-border bg-ff-surface px-4 py-2 text-sm text-ff-text hover:border-ff-blue">
+ <Link key={project.slug} href={`/work/${project.slug}`} className="border border-ff-border bg-ff-surface px-4 py-2 text-sm text-ff-text hover:border-ff-ember">
  {project.name}
  </Link>
  ))}

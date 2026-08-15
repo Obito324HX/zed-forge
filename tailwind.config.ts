@@ -17,9 +17,9 @@ const config: Config = {
           border: "#23232D",
           text: "#F0F0F5",
           muted: "#6B6B80",
-          blue: "#3B82F6",
-          cyan: "#06B6D4",
-          "blue-glow": "rgba(59,130,246,0.15)",
+          ember: "#C1552C",
+          gold: "#D9A867",
+          "ember-glow": "rgba(193,85,44,0.18)",
           green: "#22C55E",
           "light-bg": "#FAFAFA",
           "light-surface": "#FFFFFF",
@@ -35,7 +35,7 @@ const config: Config = {
         mono: ["var(--font-geist-mono)", "monospace"]
       },
       boxShadow: {
-        glow: "0 0 60px rgba(59,130,246,0.18)"
+        glow: "0 0 60px rgba(193,85,44,0.18)"
       }
     }
   },

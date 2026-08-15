@@ -18,13 +18,6 @@ export function Hero() {
         className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1.4fr_1fr] lg:items-end"
       >
         <div>
-          <motion.div
-            variants={item}
-            className="inline-flex items-center gap-2 border border-ff-border bg-ff-surface/70 px-4 py-2 text-sm text-ff-text backdrop-blur"
-          >
-            <span className="pulse-dot" /> Available for new projects
-          </motion.div>
-
           <motion.h1
             variants={item}
             className="mt-8 font-heading text-6xl font-extrabold leading-[0.95] tracking-tight text-ff-text sm:text-7xl lg:text-8xl"
@@ -39,10 +32,10 @@ export function Hero() {
           </motion.p>
 
           <motion.div variants={item} className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a href="#work" className="focus-ring bg-ff-blue px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-500">
+            <a href="#work" className="focus-ring bg-ff-ember px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-500">
               See Our Work
             </a>
-            <a href="#contact" className="focus-ring border border-ff-border bg-ff-surface px-6 py-3 text-sm font-semibold text-ff-text transition hover:border-ff-blue hover:bg-ff-surface-2">
+            <a href="#contact" className="focus-ring border border-ff-border bg-ff-surface px-6 py-3 text-sm font-semibold text-ff-text transition hover:border-ff-ember hover:bg-ff-surface-2">
               Start a Project →
             </a>
           </motion.div>
@@ -50,13 +43,13 @@ export function Hero() {
 
         <motion.div variants={item} className="border border-ff-border bg-ff-surface p-8">
           <p className="font-heading text-2xl font-bold text-ff-text">Full-stack,</p>
-          <p className="font-heading text-2xl font-bold text-ff-cyan">design to deployment.</p>
+          <p className="font-heading text-2xl font-bold text-ff-gold">design to deployment.</p>
           <div className="my-6 h-px bg-ff-border" />
           <p className="font-heading text-2xl font-bold text-ff-text">AI-accelerated,</p>
-          <p className="font-heading text-2xl font-bold text-ff-cyan">without cutting corners.</p>
+          <p className="font-heading text-2xl font-bold text-ff-gold">without cutting corners.</p>
           <div className="my-6 h-px bg-ff-border" />
           <p className="font-heading text-2xl font-bold text-ff-text">Design-led,</p>
-          <p className="font-heading text-2xl font-bold text-ff-cyan">engineering-driven.</p>
+          <p className="font-heading text-2xl font-bold text-ff-gold">engineering-driven.</p>
         </motion.div>
       </motion.div>
     </section>
