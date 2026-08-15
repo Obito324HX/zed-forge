@@ -114,7 +114,7 @@ export function Navbar() {
  <ThemeToggle />
  <a
  href="/#contact"
- className="focus-ring bg-ff-ember px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
+ className="focus-ring bg-ff-ember px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#a8461f]"
  >
  Start a Project →
  </a>

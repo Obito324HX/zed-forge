@@ -227,7 +227,7 @@ export function Contact() {
  suppressHydrationWarning
  type="submit"
  disabled={status === "sending"}
- className="focus-ring bg-ff-ember px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-60 sm:col-span-2"
+ className="focus-ring bg-ff-ember px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#a8461f] disabled:cursor-not-allowed disabled:opacity-60 sm:col-span-2"
  >
  {status === "sending" ? "Sending..." : "Send Project Brief →"}
  </button>

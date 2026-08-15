@@ -25,7 +25,7 @@ export function CaseStudyLayout({ study }: { study: CaseStudy }) {
  href={study.liveUrl}
  target="_blank"
  rel="noopener noreferrer"
- className="focus-ring inline-flex items-center gap-2 bg-ff-ember px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-500"
+ className="focus-ring inline-flex items-center gap-2 bg-ff-ember px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#a8461f]"
  >
  View Live Demo <ExternalLink size={15} />
  </a>

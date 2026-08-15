@@ -32,7 +32,7 @@ export function Hero() {
           </motion.p>
 
           <motion.div variants={item} className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a href="#work" className="focus-ring bg-ff-ember px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-500">
+            <a href="#work" className="focus-ring bg-ff-ember px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#a8461f]">
               See Our Work
             </a>
             <a href="#contact" className="focus-ring border border-ff-border bg-ff-surface px-6 py-3 text-sm font-semibold text-ff-text transition hover:border-ff-ember hover:bg-ff-surface-2">
@@ -42,14 +42,9 @@ export function Hero() {
         </div>
 
         <motion.div variants={item} className="border border-ff-border bg-ff-surface p-8">
-          <p className="font-heading text-2xl font-bold text-ff-text">Full-stack,</p>
-          <p className="font-heading text-2xl font-bold text-ff-gold">design to deployment.</p>
-          <div className="my-6 h-px bg-ff-border" />
-          <p className="font-heading text-2xl font-bold text-ff-text">AI-accelerated,</p>
-          <p className="font-heading text-2xl font-bold text-ff-gold">without cutting corners.</p>
-          <div className="my-6 h-px bg-ff-border" />
-          <p className="font-heading text-2xl font-bold text-ff-text">Design-led,</p>
-          <p className="font-heading text-2xl font-bold text-ff-gold">engineering-driven.</p>
+          <p className="font-heading text-4xl font-bold leading-tight text-ff-text">Design-led,</p>
+          <p className="font-heading text-4xl font-bold leading-tight text-ff-gold">engineering-driven.</p>
+          <p className="mt-6 text-sm leading-6 text-ff-muted">Full-stack delivery, from first pixel to production. AI-accelerated, without cutting corners.</p>
         </motion.div>
       </motion.div>
     </section>
