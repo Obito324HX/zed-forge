@@ -14,6 +14,20 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "edupulse",
+    category: "In Development · Education",
+    filter: ["SaaS", "Dashboard", "Business Solution"],
+    name: "EduPulse",
+    description:
+      "A real, actively developed school management platform: attendance, grades, and behavioral alerts across every institution, built on a genuine multi-tenant architecture with role-based security from day one.",
+    features: ["Multi-Tenant Architecture", "JWT Authentication", "Command Palette Search", "Real-Time Alerts"],
+    stack: ["React", "Flask", "PostgreSQL", "JWT Authentication"],
+    image: "/case-studies/edupulse/login.jpg",
+    accent: "#6D5FD3",
+    liveUrl: "https://edupulse-one.vercel.app/",
+    badge: "Live Product"
+  },
+  {
     slug: "bella-vista",
     category: "Concept Build · Restaurant",
     filter: ["Websites", "Business Solution"],
@@ -69,20 +83,6 @@ export const projects: Project[] = [
     accent: "#2563EB",
     liveUrl: "https://clientflow-crm-five.vercel.app/",
     badge: "Most Complex"
-  },
-  {
-    slug: "edupulse",
-    category: "In Development · Education",
-    filter: ["SaaS", "Dashboard", "Business Solution"],
-    name: "EduPulse",
-    description:
-      "A real, actively developed school management platform: attendance, grades, and behavioral alerts across every institution, built on a genuine multi-tenant architecture with role-based security from day one.",
-    features: ["Multi-Tenant Architecture", "JWT Authentication", "Command Palette Search", "Real-Time Alerts"],
-    stack: ["React", "Flask", "PostgreSQL", "JWT Authentication"],
-    image: "/case-studies/edupulse/login.jpg",
-    accent: "#6D5FD3",
-    liveUrl: "https://edupulse-one.vercel.app/",
-    badge: "Live Product"
   }
 ];
 
