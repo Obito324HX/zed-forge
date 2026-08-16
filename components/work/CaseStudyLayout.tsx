@@ -27,7 +27,7 @@ export function CaseStudyLayout({ study }: { study: CaseStudy }) {
  rel="noopener noreferrer"
  className="focus-ring inline-flex items-center gap-2 bg-ff-ember px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#a8461f]"
  >
- View Live Demo <ExternalLink size={15} />
+ {study.slug === "edupulse" ? "View Live" : "View Live Demo"} <ExternalLink size={15} />
  </a>
  <a
  href="/#contact"

@@ -81,7 +81,7 @@ export function FeaturedWork() {
                         rel="noopener noreferrer"
                         className="focus-ring bg-ff-ember px-4 py-2 text-sm font-semibold text-white hover:bg-[#a8461f] transition-colors"
                       >
-                        Live Demo ↗
+                        {project.slug === "edupulse" ? "View Live ↗" : "Live Demo ↗"}
                       </a>
                       <Link href={`/work/${project.slug}`} className="focus-ring border border-ff-border px-4 py-2 text-sm font-semibold text-ff-text hover:bg-ff-surface-2">
                         Case Study →
