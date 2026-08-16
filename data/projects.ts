@@ -22,7 +22,7 @@ export const projects: Project[] = [
       "A real, actively developed school management platform: attendance, grades, and behavioral alerts across every institution, built on a genuine multi-tenant architecture with role-based security from day one.",
     features: ["Multi-Tenant Architecture", "JWT Authentication", "Command Palette Search", "Real-Time Alerts"],
     stack: ["React", "Flask", "PostgreSQL", "JWT Authentication"],
-    image: "/case-studies/edupulse/login.jpg",
+    image: "/case-studies/edupulse/cover.jpg",
     accent: "#6D5FD3",
     liveUrl: "https://edupulse-one.vercel.app/",
     badge: "Live Product"

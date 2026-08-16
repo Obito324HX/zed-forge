@@ -181,7 +181,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     title: "EduPulse",
     category: "Education · SaaS Platform",
     tagline: "A real school management platform, not a mockup, in active development.",
-    image: bySlug.edupulse.image,
+    image: "/case-studies/edupulse/login.jpg",
     stack: bySlug.edupulse.stack,
     meta: [
       { label: "Timeline", value: "Ongoing" },
@@ -208,7 +208,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     demonstrates:
       "This is live, evolving software with real backend architecture behind it, not a static demo. It's the clearest proof of the full-stack, security-conscious engineering the rest of our work is built on.",
     mockups: [
-      "/case-studies/edupulse/login.jpg",
+      "/case-studies/edupulse/cover.jpg",
       "/case-studies/edupulse/command-palette.jpg"
     ],
     next: "bella-vista",
