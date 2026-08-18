@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { SectionHeader } from "./SectionHeader";
 
-const values = ["Speed without shortcuts", "Honest communication", "Results over aesthetics", "Built to scale"];
+const values = ["Direct access to senior talent", "Engineering rigor over shortcuts", "Zero agency bureaucracy", "Built to scale"];
 
 export function About() {
   return (
@@ -10,8 +10,8 @@ export function About() {
         <SectionHeader eyebrow="About zed-forge" title="Built in Zambia. Built for the world." />
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="space-y-5 text-base leading-7 text-ff-muted">
-            <p className="text-lg text-ff-text">zed-forge is a design and development studio. We build digital products for teams that want more than a template: clean code, sharp design, systems built to scale.</p>
-            <p>We work fast without cutting corners, using an AI-accelerated workflow to deliver production-ready work on tight timelines.</p>
+            <p className="text-lg text-ff-text">zed-forge is an independent digital studio. We engineer digital products for teams that demand more than a template: rigorous code, sharp design, and systems built to scale under real load.</p>
+            <p>We work fast without cutting corners, using an AI-accelerated workflow to deliver production-grade work on tight timelines.</p>
             <p>No bloated proposals. No agency theatre. Just work that ships and performs.</p>
             <div className="border border-ff-ember/50 bg-ff-ember/10 p-5 text-ff-text">
               We build with the best tools available — including AI. It means faster delivery, cleaner code, and more time focused on what actually makes your project stand out.

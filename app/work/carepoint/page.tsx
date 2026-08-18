@@ -4,7 +4,7 @@ import { caseStudies } from "@/data/caseStudies";
 
 export const metadata: Metadata = {
   title: "CarePoint Medical Center — Case Study | zed-forge",
-  description: "A trust-focused healthcare website for a multi-specialty clinic."
+  description: "A trust-engineered healthcare platform, architected for a multi-specialty clinic."
 };
 
 export default function Page() {

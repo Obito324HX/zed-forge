@@ -12,7 +12,7 @@ const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "template_we3
 const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "fLqd5qS0BGupo6R-z";
 
 const projectTypes = ["Business Website", "Web Application", "SaaS Platform", "Something Else"];
-const scopes = ["Small business site", "Growing business project", "Custom web application", "Full SaaS product", "Not sure yet"];
+const scopes = ["Focused business site", "Multi-feature business platform", "Custom web application", "Full SaaS product", "Not sure yet"];
 const timelines = ["As soon as possible", "Within 1 month", "1-3 months", "Just exploring"];
 const sources = ["LinkedIn", "WhatsApp", "Referral", "Google", "Other"];
 
@@ -95,8 +95,8 @@ export function Contact() {
  >
  <div className="mx-auto max-w-7xl">
  <SectionHeader
- eyebrow="Get in Touch"
- title="Let's build something for your business"
+ eyebrow="Enterprise Inquiries"
+ title="Let's engineer your next digital asset"
  sub="Based in Zambia. Working worldwide."
  />
  <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">

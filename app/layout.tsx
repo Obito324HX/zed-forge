@@ -8,13 +8,13 @@ import { ScrollProgress } from "@/components/shared/ScrollProgress";
 
 export const metadata: Metadata = {
  metadataBase: new URL("https://zed-forge-xi.vercel.app"),
- title: "zed-forge | Web Development Studio Based in Zambia",
+ title: "zed-forge | Independent Digital Studio Based in Zambia",
  description:
- "zed-forge builds modern websites, web applications, and SaaS platforms for businesses across Zambia and beyond. Get a quote today.",
- keywords: ["web developer Zambia", "website design Africa", "zed-forge", "web development Zambia"],
+ "zed-forge engineers high-performance web applications, SaaS platforms, and bespoke digital experiences for ambitious brands and enterprises across Zambia and beyond.",
+ keywords: ["web developer Zambia", "digital studio Africa", "zed-forge", "software engineering Zambia"],
  openGraph: {
- title: "zed-forge — Web Development Studio Based in Zambia",
- description: "Modern websites and web apps for growing businesses.",
+ title: "zed-forge — Independent Digital Studio Based in Zambia",
+ description: "High-performance web applications and bespoke digital platforms, engineered to the standard ambitious brands demand.",
  url: "https://zed-forge-xi.vercel.app",
  siteName: "zed-forge"
  }
@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
  "@type": "Organization",
  name: "zed-forge",
  url: "https://zed-forge-xi.vercel.app",
- description: "zed-forge is a design and development studio building websites, web applications, and SaaS platforms.",
+ description: "zed-forge is an independent digital studio engineering high-performance web applications, SaaS platforms, and bespoke digital experiences.",
  email: "zedforgezm@gmail.com",
  telephone: "+260966451446",
  sameAs: ["https://www.instagram.com/zedforge.zm"],

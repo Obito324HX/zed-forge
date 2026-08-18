@@ -78,7 +78,7 @@ export function Logo({ className, showTagline = false, size = "md" }: LogoProps)
 
       {showTagline && (
         <span className="pl-[2px] font-mono text-[9px] uppercase tracking-[0.2em] text-ff-muted">
-          web development studio
+          independent digital studio
         </span>
       )}
     </div>

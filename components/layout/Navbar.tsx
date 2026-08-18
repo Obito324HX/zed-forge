@@ -116,7 +116,7 @@ export function Navbar() {
  href="/#contact"
  className="focus-ring bg-ff-ember px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#a8461f]"
  >
- Start a Project →
+ Initiate a Consultation →
  </a>
  </div>
  <div className="flex items-center gap-2 md:hidden">
@@ -165,7 +165,7 @@ export function Navbar() {
  onClick={() => setOpen(false)}
  className="focus-ring bg-ff-ember px-4 py-2 text-sm font-semibold text-white"
  >
- Start a Project →
+ Initiate a Consultation →
  </a>
  </div>
  </motion.div>

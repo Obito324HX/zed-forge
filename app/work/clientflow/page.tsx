@@ -4,7 +4,7 @@ import { caseStudies } from "@/data/caseStudies";
 
 export const metadata: Metadata = {
   title: "ClientFlow CRM — Case Study | zed-forge",
-  description: "A full SaaS CRM platform with lead management, Kanban pipeline, analytics dashboard, and command palette."
+  description: "An enterprise-grade SaaS CRM engineered on Next.js and TypeScript for zero-compromise performance."
 };
 
 export default function Page() {

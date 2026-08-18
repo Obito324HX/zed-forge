@@ -5,48 +5,48 @@ export const services = [
     icon: Globe,
     name: "Business Websites",
     description:
-      "Modern, responsive websites that establish credibility, attract customers, and perform flawlessly on every device.",
+      "High-performance digital storefronts engineered for conversion, optimal Core Web Vitals, and zero layout shift, not just visual polish.",
     examples: ["Restaurants", "Clinics", "Gyms", "Schools", "Churches", "Lodges"],
-    cta: "Get a Quote"
+    cta: "Discuss This Build"
   },
   {
     icon: LayoutDashboard,
     name: "Web Applications",
     description:
-      "Custom systems built to solve real business problems: booking platforms, client portals, management dashboards, and internal tools.",
+      "Bespoke systems architected around your actual operating logic: booking platforms, client portals, management dashboards, and internal tools built to hold up under real use.",
     examples: ["Booking Systems", "CRM Tools", "Admin Dashboards", "Portals"],
-    cta: "Get a Quote"
+    cta: "Discuss This Build"
   },
   {
     icon: Boxes,
     name: "SaaS Platforms",
     description:
-      "Scalable software products built for growth. Full product design, frontend development, and deployment-ready code.",
+      "Scalable software platforms engineered for growth, from product architecture and interface design to production-ready, deployment-hardened code.",
     examples: ["CRM Platforms", "Analytics Tools", "Client Portals", "Marketplaces"],
-    cta: "Get a Quote"
+    cta: "Discuss This Build"
   },
   {
     icon: Database,
     name: "Backend & APIs",
     description:
-      "Reliable backend systems built to handle real data and real load: clean APIs, well-structured databases, and integrations that don't break under pressure.",
+      "Backend infrastructure engineered to handle real data and real load: precise APIs, rigorously structured databases, and integrations built to hold under pressure.",
     examples: ["REST APIs", "Database Design", "Third-Party Integrations", "Data Migrations"],
-    cta: "Get a Quote"
+    cta: "Discuss This Build"
   },
   {
     icon: Shield,
     name: "Security & Access Control",
     description:
-      "Authentication and permissions built in from the start, not patched in afterward. Every account, role, and data boundary handled properly.",
+      "Institutional-grade authentication and access control, architected in from the first commit, not patched in afterward. Every account, role, and data boundary enforced at the system level.",
     examples: ["Authentication", "Role-Based Access", "Multi-Tenant Isolation", "Credential Management"],
-    cta: "Get a Quote"
+    cta: "Discuss This Build"
   },
   {
     icon: Rocket,
     name: "Deployment & Infrastructure",
     description:
-      "A clean, repeatable path from code to a live, stable product, with proper environment configuration and monitoring from day one.",
+      "A rigorous, repeatable path from code to a live, edge-deployed product, with proper environment configuration and monitoring engineered in from day one.",
     examples: ["Cloud Hosting", "CI/CD", "Environment Config", "Uptime Monitoring"],
-    cta: "Get a Quote"
+    cta: "Discuss This Build"
   }
 ];

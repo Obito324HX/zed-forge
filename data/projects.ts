@@ -19,7 +19,7 @@ export const projects: Project[] = [
     filter: ["SaaS", "Dashboard", "Business Solution"],
     name: "EduPulse",
     description:
-      "A real, actively developed school management platform: attendance, grades, and behavioral alerts across every institution, built on a genuine multi-tenant architecture with role-based security from day one.",
+      "A production school-management platform architected for real institutional load: multi-tenant data isolation, role-based access control, and real-time behavioral alerting engineered from the schema up.",
     features: ["Multi-Tenant Architecture", "JWT Authentication", "Command Palette Search", "Real-Time Alerts"],
     stack: ["React", "Flask", "PostgreSQL", "JWT Authentication"],
     image: "/case-studies/edupulse/cover.jpg",
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     filter: ["Websites", "Business Solution"],
     name: "Bella Vista",
     description:
-      "A modern African fusion restaurant website built to convert visitors into diners. Full menu system, table reservations, gallery, and a brand story built to attract real customers.",
+      "A conversion-engineered restaurant platform: a structured menu system, table-reservation flow, and a visual brand narrative built to turn visitors into diners.",
     features: ["Menu System", "Reservation System", "Mobile Responsive", "Dark Mode"],
     stack: ["HTML", "CSS", "JavaScript"],
     image:
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     filter: ["Websites", "Business Solution"],
     name: "IronForge Fitness",
     description:
-      "A premium gym website built to convert visitors into members. Membership plans, trainer profiles, class schedules, and a goal quiz that funnels visitors into the right plan.",
+      "A conversion-engineered fitness platform: tiered membership architecture, trainer profiles, class scheduling, and a goal-based quiz that routes visitors into the right plan.",
     features: ["Membership Plans", "Class Schedule", "Trainer Profiles", "Goal Quiz"],
     stack: ["HTML", "CSS", "JavaScript"],
     image:
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     filter: ["Websites", "Business Solution"],
     name: "CarePoint Medical Center",
     description:
-      "A trust-focused healthcare website for a multi-specialty clinic. Doctor profiles, appointment booking, symptom checker, and patient portal mockup.",
+      "A trust-engineered healthcare platform for a multi-specialty clinic: structured appointment booking, a guided symptom-checker flow, doctor directory, and a patient-portal interface.",
     features: ["Appointment Booking", "Doctor Directory", "Symptom Checker", "Accessibility"],
     stack: ["HTML", "CSS", "JavaScript"],
     image:
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     filter: ["SaaS", "Dashboard", "Business Solution"],
     name: "ClientFlow CRM",
     description:
-      "A full SaaS CRM platform with lead management, Kanban pipeline, analytics dashboard, AI assistant mockup, and command palette.",
+      "An enterprise-grade SaaS CRM engineered on Next.js and TypeScript: a real-time Kanban pipeline, analytics dashboard, and command-palette-driven navigation, built for zero-compromise performance.",
     features: ["Sales Pipeline", "Analytics", "AI Insights", "Command Palette"],
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
     image:

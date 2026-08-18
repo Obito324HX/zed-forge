@@ -55,7 +55,7 @@ export function Footer() {
  </div>
  <div className="mx-auto mt-10 flex max-w-7xl flex-col justify-between gap-3 border-t border-ff-border pt-6 text-xs text-ff-muted md:flex-row">
  <p>© 2026 zed-forge. All rights reserved.</p>
- <p>Design &amp; Development Studio</p>
+ <p>Independent Digital Studio</p>
  </div>
  </footer>
  );

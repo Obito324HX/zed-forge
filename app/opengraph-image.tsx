@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "zed-forge — Design and Development Studio";
+export const alt = "zed-forge — Independent Digital Studio";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -56,7 +56,7 @@ export default function OpengraphImage() {
             fontFamily: "monospace"
           }}
         >
-          Design &amp; Development Studio
+          Independent Digital Studio
         </div>
       </div>
     ),

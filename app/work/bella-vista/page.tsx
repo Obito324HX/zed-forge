@@ -4,7 +4,7 @@ import { caseStudies } from "@/data/caseStudies";
 
 export const metadata: Metadata = {
   title: "Bella Vista Restaurant — Case Study | zed-forge",
-  description: "A modern African fusion restaurant website built to convert visitors into diners."
+  description: "A conversion-engineered restaurant platform, architected to turn visitors into diners."
 };
 
 export default function Page() {

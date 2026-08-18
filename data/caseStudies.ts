@@ -24,7 +24,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     slug: "bella-vista",
     title: "Bella Vista Restaurant",
     category: "Restaurant",
-    tagline: "Modern African fusion restaurant website built to convert visitors into diners.",
+    tagline: "A conversion-engineered restaurant platform, architected to turn visitors into diners.",
     image: bySlug["bella-vista"].image,
     stack: bySlug["bella-vista"].stack,
     meta: [
@@ -50,7 +50,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       ["SVG Logo", "Scalable brand mark with zero performance cost."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "Any restaurant, cafe, lodge, or food business can see exactly what their website could look like and want it immediately.",
+      "Proof that hospitality brands don't have to choose between atmosphere and performance. Precision execution, down to the reservation flow.",
     mockups: [
       "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
@@ -63,7 +63,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     slug: "ironforge",
     title: "IronForge Fitness",
     category: "Fitness & Wellness",
-    tagline: "High-energy gym website built to convert visitors into members.",
+    tagline: "A conversion-engineered fitness platform, architected to turn visitors into members.",
     image: bySlug.ironforge.image,
     stack: bySlug.ironforge.stack,
     meta: [
@@ -89,7 +89,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       ["BMI Calculator", "Gives visitors a reason to interact before they commit."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "Any gym, fitness center, sports club, or wellness brand can see a premium version of their digital presence.",
+      "Proof that a fitness brand's digital presence can carry the same intensity as the facility itself, engineered for conversion at every step.",
     mockups: [
       "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=900&q=80",
@@ -102,7 +102,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     slug: "carepoint",
     title: "CarePoint Medical Center",
     category: "Healthcare",
-    tagline: "Trust-first healthcare website for a multi-specialty clinic.",
+    tagline: "A trust-engineered healthcare platform, architected for a multi-specialty clinic.",
     image: bySlug.carepoint.image,
     stack: bySlug.carepoint.stack,
     meta: [
@@ -128,7 +128,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       ["Appointment Booking", "Turns trust into action."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "Any private clinic, dental practice, physiotherapy center, or specialist practice can see a ready-to-launch digital presence.",
+      "Proof that healthcare interfaces can be both clinically credible and genuinely well-engineered, built to earn trust before the first appointment.",
     mockups: [
       "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=900&q=80",
@@ -141,7 +141,7 @@ export const caseStudies: Record<string, CaseStudy> = {
     slug: "clientflow",
     title: "ClientFlow CRM",
     category: "SaaS / Web Application",
-    tagline: "Production-quality SaaS CRM demo for agency and startup pitches.",
+    tagline: "An enterprise-grade SaaS CRM, engineered on Next.js and TypeScript for zero-compromise performance.",
     image: bySlug.clientflow.image,
     stack: bySlug.clientflow.stack,
     meta: [
@@ -167,7 +167,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       ["Onboarding Tour", "Makes complex software approachable."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "We can build full SaaS applications, not just marketing sites. This is the project that separates zed-forge from typical website providers.",
+      "Proof of full product engineering, not just marketing sites: real application architecture, state management, and interface systems built to production standards.",
     mockups: [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80",
@@ -206,7 +206,7 @@ export const caseStudies: Record<string, CaseStudy> = {
       ["Mobile-First Nav", "A real bottom nav built for staff checking data between classes, not a desktop afterthought."]
     ].map(([name, description]) => ({ name, description })),
     demonstrates:
-      "This is live, evolving software with real backend architecture behind it, not a static demo. It's the clearest proof of the full-stack, security-conscious engineering the rest of our work is built on.",
+      "This is live, evolving production software, not a static demo. It's the clearest proof of the institutional-grade, security-conscious engineering the rest of our work is built on.",
     mockups: [
       "/case-studies/edupulse/cover.jpg",
       "/case-studies/edupulse/command-palette.jpg"
