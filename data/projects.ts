@@ -1,5 +1,5 @@
 export type Project = {
-  slug: "bella-vista" | "ironforge" | "carepoint" | "clientflow" | "edupulse";
+  slug: "bella-vista" | "ironforge" | "carepoint" | "clientflow" | "edupulse" | "solstice-estates";
   category: string;
   filter: string[];
   name: string;
@@ -83,6 +83,19 @@ export const projects: Project[] = [
     accent: "#2563EB",
     liveUrl: "https://clientflow-crm-five.vercel.app/",
     badge: "Most Complex"
+  },
+  {
+    slug: "solstice-estates",
+    category: "Concept Build · Real Estate",
+    filter: ["Websites", "Business Solution"],
+    name: "Solstice Estates",
+    description:
+      "An ultra-luxury real estate platform architected with multi-currency state management, neighborhood-comparison tooling, and a confidential off-market enquiry flow for discerning buyers.",
+    features: ["Multi-Currency Toggle", "Neighborhood Comparison", "Confidential Listings", "Enquiry Flow"],
+    stack: ["HTML", "CSS", "JavaScript"],
+    image: "https://images.pexels.com/photos/4626268/pexels-photo-4626268.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    accent: "#B08D57",
+    liveUrl: "https://solstice-estates.vercel.app/"
   }
 ];
 

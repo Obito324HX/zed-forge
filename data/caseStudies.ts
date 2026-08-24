@@ -211,7 +211,45 @@ export const caseStudies: Record<string, CaseStudy> = {
       "/case-studies/edupulse/cover.jpg",
       "/case-studies/edupulse/command-palette.jpg"
     ],
-    next: "bella-vista",
+    next: "solstice-estates",
     liveUrl: bySlug.edupulse.liveUrl
+  },
+  "solstice-estates": {
+    slug: "solstice-estates",
+    title: "Solstice Estates",
+    category: "Real Estate · Concept Build",
+    tagline: "An ultra-luxury digital flagship for a Zambian real estate agency, architected for buyers who measure a home by what it overlooks.",
+    image: bySlug["solstice-estates"].image,
+    stack: bySlug["solstice-estates"].stack,
+    meta: [
+      { label: "Timeline", value: "3 weeks" },
+      { label: "Type", value: "Real Estate Platform" },
+      { label: "Status", value: "Complete — Live Demo" }
+    ],
+    challenge: [
+      "High-end real estate in Lusaka is often sold quietly, off-market, without ever being presented properly, undermining the price a genuinely exceptional property should command.",
+      "The platform needed to carry the weight of a seven-figure listing: restrained typography, real photographic depth, and interactive tooling that reads as considered rather than templated.",
+    ],
+    approach: [
+      "Built a multi-currency pricing system (ZMW/USD) with live-toggle state management, so every listing reads correctly to both local and international buyers without a page reload.",
+      "Designed an interactive neighborhood-comparison module, tabbed profiles of Lusaka's top corridors (Kabulonga, Ibex Hill, Roma, Sunningdale) benchmarked on security, schooling, and commute.",
+      "Added a confidential-listings flow for off-market inventory, with a dedicated enquiry system that routes buy, sell, and private-access requests separately.",
+    ],
+    features: [
+      ["Multi-Currency Toggle", "Every listing price recalculates instantly between ZMW and USD, no reload required."],
+      ["Neighborhood Comparison", "An interactive, tabbed breakdown of Lusaka's top corridors on security, schools, and commute."],
+      ["Confidential Listings", "Off-market inventory shown by direct introduction only, with its own request flow."],
+      ["Enquiry Flow", "A property-aware contact system that routes buy, sell, and private-access requests separately."],
+      ["Editorial Photography Layer", "Full-bleed, golden-hour styled imagery treated as the primary content, not decoration."],
+      ["Development Pipeline", "A phased view of ground-up estate partnerships, from planning through to reserved."]
+    ].map(([name, description]) => ({ name, description })),
+    demonstrates:
+      "Proof that zed-forge can architect a digital experience for a seven-figure asset class: restrained luxury design paired with genuine interactive engineering, not just a pretty brochure site.",
+    mockups: [
+      "https://images.pexels.com/photos/8134821/pexels-photo-8134821.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    next: "bella-vista",
+    liveUrl: bySlug["solstice-estates"].liveUrl
   }
 };
