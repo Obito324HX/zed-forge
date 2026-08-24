@@ -24,15 +24,15 @@ const contactItems = [
  ariaLabel: "Email zed-forge",
  },
  {
- href: "https://wa.me/260966451446",
+ href: "https://wa.me/260573457814",
  icon: MessageCircle,
- label: "+260 966 451 446",
+ label: "+260 573 457 814",
  ariaLabel: "Message zed-forge on WhatsApp",
  },
  {
- href: "tel:+260966451446",
+ href: "tel:+260573457814",
  icon: Phone,
- label: "+260 966 451 446",
+ label: "+260 573 457 814",
  ariaLabel: "Call zed-forge",
  },
  {
@@ -257,7 +257,7 @@ export function Contact() {
  ))}
  </div>
  <a
- href="https://wa.me/260966451446?text=Hello%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20zed-forge."
+ href="https://wa.me/260573457814?text=Hello%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20zed-forge."
  target="_blank"
  rel="noopener noreferrer"
  className="focus-ring mt-6 flex w-full items-center justify-center gap-2 bg-[#25D366] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#1ebe5d]"

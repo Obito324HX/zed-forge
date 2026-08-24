@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
  url: "https://zed-forge-xi.vercel.app",
  description: "zed-forge is an independent digital studio engineering high-performance web applications, SaaS platforms, and bespoke digital experiences.",
  email: "zedforgezm@gmail.com",
- telephone: "+260966451446",
+ telephone: "+260573457814",
  sameAs: ["https://www.instagram.com/zedforge.zm"],
  address: {
  "@type": "PostalAddress",

@@ -42,7 +42,7 @@ export function Footer() {
  <Instagram size={18} />
  </a>
  <a
- href="https://wa.me/260966451446"
+ href="https://wa.me/260573457814"
  target="_blank"
  rel="noopener noreferrer"
  aria-label="Message zed-forge on WhatsApp"

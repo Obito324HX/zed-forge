@@ -96,7 +96,7 @@ export function CommandPalette() {
  <FileDown size={16} /> Download CV
  </Command.Item>
  <Command.Item
- onSelect={() => run(() => window.open("https://wa.me/260966451446", "_blank", "noopener"))}
+ onSelect={() => run(() => window.open("https://wa.me/260573457814", "_blank", "noopener"))}
  className="flex cursor-pointer items-center gap-3 px-3 py-2 text-sm text-ff-text aria-selected:bg-ff-surface-2"
  >
  <MessageCircle size={16} /> Open WhatsApp
