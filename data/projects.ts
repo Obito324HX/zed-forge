@@ -93,7 +93,7 @@ export const projects: Project[] = [
       "An ultra-luxury real estate platform architected with multi-currency state management, neighborhood-comparison tooling, and a confidential off-market enquiry flow for discerning buyers.",
     features: ["Multi-Currency Toggle", "Neighborhood Comparison", "Confidential Listings", "Enquiry Flow"],
     stack: ["HTML", "CSS", "JavaScript"],
-    image: "https://images.pexels.com/photos/4626268/pexels-photo-4626268.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/case-studies/solstice-estates/cover.jpg",
     accent: "#B08D57",
     liveUrl: "https://solstice-estates.vercel.app/"
   }
