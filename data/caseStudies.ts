@@ -249,7 +249,121 @@ export const caseStudies: Record<string, CaseStudy> = {
       "https://images.pexels.com/photos/8134821/pexels-photo-8134821.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
-    next: "bella-vista",
+    next: "nkwazi-farms",
     liveUrl: bySlug["solstice-estates"].liveUrl
+  },
+  "nkwazi-farms": {
+    slug: "nkwazi-farms",
+    title: "Nkwazi Farms",
+    category: "Agriculture",
+    tagline: "An agriculture brand platform architected around one operating narrative: crops and livestock as a single integrated system.",
+    image: bySlug["nkwazi-farms"].image,
+    stack: bySlug["nkwazi-farms"].stack,
+    meta: [
+      { label: "Timeline", value: "2 weeks" },
+      { label: "Type", value: "Business Website" },
+      { label: "Status", value: "Complete — Live Demo" }
+    ],
+    challenge: [
+      "Agriculture businesses rarely get a web presence that reads as real production infrastructure rather than a roadside sign. Buyers and partners need to see scale, process, and certification before they'll trust supply.",
+      "This concept was built to address a live opportunity: a prospective client in agriculture had specifically requested a mockup relevant to their line of work."
+    ],
+    approach: [
+      "Structured the entire site around one narrative: crops and livestock are one operating system, not two separate product lines competing for attention.",
+      "Built a six-step process timeline (soil prep through delivery) so the operation reads as disciplined, not improvised.",
+      "Added a certifications bar (ZABS, GAP, HACCP, COMESA) and proof-of-scale stats (tonnage, partners, provinces served) to substitute for the trust a buyer would otherwise need a site visit to get."
+    ],
+    features: [
+      ["Process Timeline", "A six-step breakdown from soil preparation through delivery, shown as one continuous operation."],
+      ["Certifications Bar", "ZABS, GAP, HACCP, and COMESA marks presented as a scannable trust strip."],
+      ["Proof-of-Scale Stats", "Tonnage, partner count, and provinces served, framed as evidence rather than marketing copy."],
+      ["Photo Gallery", "A lightbox gallery covering both the crop and livestock sides of the operation."],
+      ["Dual-Discipline Framing", "Crops and livestock presented as one integrated system throughout, not two disconnected pages."],
+      ["Direct Contact Routing", "WhatsApp, Instagram, and Facebook wired directly into the enquiry flow."]
+    ].map(([name, description]) => ({ name, description })),
+    demonstrates:
+      "Proof that an agriculture brand can be presented with the same production-grade credibility as any other regulated supply business, engineered to build trust before a single call is made.",
+    mockups: [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1559743702-14419ca95ca4?auto=format&fit=crop&w=900&q=80"
+    ],
+    next: "trustline-lending",
+    liveUrl: bySlug["nkwazi-farms"].liveUrl
+  },
+  "trustline-lending": {
+    slug: "trustline-lending",
+    title: "Trustline Finance",
+    category: "Fintech · Concept Build",
+    tagline: "A dark, neo-fintech lending platform engineered around a live, state-driven loan calculator, not a static rates table.",
+    image: bySlug["trustline-lending"].image,
+    stack: bySlug["trustline-lending"].stack,
+    meta: [
+      { label: "Timeline", value: "2 weeks" },
+      { label: "Type", value: "Business Website" },
+      { label: "Status", value: "Complete — Live Demo" }
+    ],
+    challenge: [
+      "Lending platforms have to earn trust with a financial product before a visitor will hand over personal details, while most lender sites still lean on a static rates table and a generic contact form.",
+      "The brief was to push the mockup toward the visual and interactive standard of established global fintech platforms without fabricating credentials the business doesn't actually hold."
+    ],
+    approach: [
+      "Replaced the static rates table with a real-time, slider-driven loan calculator: amount and tenure inputs recompute the rate, monthly payment, and total repayable instantly.",
+      "Built a four-step apply flow (loan details, personal details with live validation, a simulated document upload, and review) instead of a single flat form.",
+      "Added a currency switcher (ZMW/USD/EUR/GBP) that recalculates the whole calculator and swaps the footer's regulatory disclaimer so converted figures are never presented as official multi-country pricing."
+    ],
+    features: [
+      ["Live Loan Calculator", "Amount and tenure sliders recompute rate, monthly payment, and total repayable instantly."],
+      ["Multi-Step Apply Flow", "A four-step application with real inline validation and a simulated document-upload state."],
+      ["Currency Switcher", "ZMW/USD/EUR/GBP toggle that recalculates the calculator and updates the regulatory disclaimer per currency."],
+      ["Dark/Light Theme Toggle", "A persisted theme preference across the full neo-fintech visual system."],
+      ["Security Marquee", "An animated strip of the lender's actual licensing, encryption, and data-protection claims, nothing fabricated."],
+      ["Developer Preview", "A mock API reference and status indicator, clearly labeled as a design preview rather than a live endpoint."]
+    ].map(([name, description]) => ({ name, description })),
+    demonstrates:
+      "Proof of interactive, state-driven front-end engineering for a trust-sensitive financial product, built to elite visual standards without ever claiming a certification or credential the business doesn't hold.",
+    mockups: [
+      "https://images.unsplash.com/photo-1707761918029-1295034aa31e?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1707157284454-553ef0a4ed0d?auto=format&fit=crop&w=900&q=80"
+    ],
+    next: "verve-studio",
+    liveUrl: bySlug["trustline-lending"].liveUrl
+  },
+  "verve-studio": {
+    slug: "verve-studio",
+    title: "Verve",
+    category: "Beauty & Grooming · Concept Build",
+    tagline: "An editorial-grade studio platform for a unisex barber-and-salon brand, built around one narrative: no more picking a side of the door.",
+    image: bySlug["verve-studio"].image,
+    stack: bySlug["verve-studio"].stack,
+    meta: [
+      { label: "Timeline", value: "2 weeks" },
+      { label: "Type", value: "Business Website" },
+      { label: "Status", value: "Complete — Live Demo" }
+    ],
+    challenge: [
+      "Barber-and-salon businesses that serve everyone are still routinely presented as two gendered menus bolted together, which undercuts the actual pitch of a studio built to serve any client in either chair.",
+      "The site needed real production-grade front-end craft, not just an editorial look, since a design-forward brand invites closer scrutiny of its interaction details."
+    ],
+    approach: [
+      "Built a sticky-scroll service panel that swaps its image on hover for desktop, with an automatic tap-to-swap fallback on touch devices via a hover-capability media query.",
+      "Wired the FAQ accordion and gallery lightbox with proper ARIA attributes and keyboard navigation rather than mouse-only interaction.",
+      "Added defensive degradation throughout: a graceful fallback if an external image fails to load, and a try/catch around the smooth-scroll library so the site still works if that script doesn't load."
+    ],
+    features: [
+      ["Hover-Swap Service Panel", "Desktop hover swaps the preview image; touch devices automatically fall back to tap-to-swap."],
+      ["Accessible FAQ Accordion", "Proper aria-expanded and aria-controls wiring, not just a mouse-driven toggle."],
+      ["Keyboard-Navigable Gallery", "A lightbox gallery that works fully from the keyboard, not only by clicking."],
+      ["Infinite Testimonial Marquee", "A duplicated-track scrolling marquee with a reliable hover-to-pause on the moving row itself."],
+      ["Magnetic Buttons", "A subtle cursor-follow micro-interaction on primary calls to action."],
+      ["Graceful Degradation", "Image load failures and a blocked smooth-scroll CDN both degrade cleanly instead of breaking the page."]
+    ].map(([name, description]) => ({ name, description })),
+    demonstrates:
+      "Proof that an editorial visual identity and real accessibility/defensive engineering aren't a trade-off: the same site that looks this considered also holds up under keyboard navigation and partial script failure.",
+    mockups: [
+      "https://images.unsplash.com/photo-1543807535-eceef0bc6599?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1634480258143-ffb5e6df0029?auto=format&fit=crop&w=900&q=80"
+    ],
+    next: "bella-vista",
+    liveUrl: bySlug["verve-studio"].liveUrl
   }
 };
