@@ -1,5 +1,14 @@
 export type Project = {
-  slug: "bella-vista" | "ironforge" | "carepoint" | "clientflow" | "edupulse" | "solstice-estates";
+  slug:
+    | "bella-vista"
+    | "ironforge"
+    | "carepoint"
+    | "clientflow"
+    | "edupulse"
+    | "solstice-estates"
+    | "nkwazi-farms"
+    | "trustline-lending"
+    | "verve-studio";
   category: string;
   filter: string[];
   name: string;
@@ -96,6 +105,48 @@ export const projects: Project[] = [
     image: "/case-studies/solstice-estates/cover.jpg",
     accent: "#B08D57",
     liveUrl: "https://solstice-estates.vercel.app/"
+  },
+  {
+    slug: "nkwazi-farms",
+    category: "Concept Build · Agriculture",
+    filter: ["Websites", "Business Solution"],
+    name: "Nkwazi Farms",
+    description:
+      "An agriculture brand platform architected around one operating narrative: crops and livestock presented as a single integrated system, backed by a certification bar and a real production-scale proof layer.",
+    features: ["Process Timeline", "Certifications Bar", "Proof-of-Scale Stats", "Photo Gallery"],
+    stack: ["HTML", "CSS", "JavaScript"],
+    image:
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    accent: "#48542F",
+    liveUrl: "https://nkwazi-farms.vercel.app/"
+  },
+  {
+    slug: "trustline-lending",
+    category: "Concept Build · Fintech",
+    filter: ["Websites", "Business Solution"],
+    name: "Trustline Finance",
+    description:
+      "A dark, neo-fintech lending platform engineered around a live, slider-driven loan calculator and a multi-step application flow, replacing the static rate tables typical of the category.",
+    features: ["Live Loan Calculator", "Multi-Step Apply Flow", "Currency Switcher", "Dark/Light Theme"],
+    stack: ["HTML", "CSS", "JavaScript"],
+    image:
+      "https://images.unsplash.com/photo-1707761918029-1295034aa31e?auto=format&fit=crop&w=1200&q=80",
+    accent: "#35D6AE",
+    liveUrl: "https://trustline-lending.vercel.app/"
+  },
+  {
+    slug: "verve-studio",
+    category: "Concept Build · Beauty & Grooming",
+    filter: ["Websites", "Business Solution"],
+    name: "Verve",
+    description:
+      "An editorial-grade studio platform for a unisex barber-and-salon brand, built on a hover-swap service panel with a touch-first fallback and accessibility wired through the interface, not bolted on after.",
+    features: ["Hover-Swap Service Panel", "Accessible FAQ Accordion", "Keyboard-Navigable Gallery", "Graceful Degradation"],
+    stack: ["HTML", "CSS", "JavaScript"],
+    image:
+      "https://images.unsplash.com/photo-1770253980732-dfed1cfdfa43?auto=format&fit=crop&w=1200&q=80",
+    accent: "#B3202C",
+    liveUrl: "https://verve-studio-silk.vercel.app/"
   }
 ];
 

@@ -10,7 +10,7 @@ export function Team() {
     <section id="team" className="px-4 py-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <SectionHeader eyebrow="Who We Are" title="The people behind zed-forge" />
-        <div className="grid gap-px overflow-hidden border border-ff-border bg-ff-border sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid max-w-2xl gap-px overflow-hidden border border-ff-border bg-ff-border sm:grid-cols-2">
           {team.map((member, index) => (
             <motion.div
               key={member.name}

@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://zed-forge-xi.vercel.app";
-  const routes = ["", "/work/bella-vista", "/work/ironforge", "/work/carepoint", "/work/clientflow", "/work/edupulse", "/work/solstice-estates"];
+  const routes = ["", "/work/bella-vista", "/work/ironforge", "/work/carepoint", "/work/clientflow", "/work/edupulse", "/work/solstice-estates", "/work/nkwazi-farms", "/work/trustline-lending", "/work/verve-studio"];
 
   return routes.map((route) => ({
     url: `${base}${route}`,

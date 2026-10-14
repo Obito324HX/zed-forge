@@ -30,9 +30,9 @@ const contactItems = [
  ariaLabel: "Message zed-forge on WhatsApp",
  },
  {
- href: "tel:+260573457814",
+ href: "tel:+260976034685",
  icon: Phone,
- label: "+260 573 457 814",
+ label: "+260 976 034 685",
  ariaLabel: "Call zed-forge",
  },
  {

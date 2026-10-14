@@ -16,11 +16,5 @@ export const team: TeamMember[] = [
     name: "Cletus Bwalya",
     role: "Lead Developer",
     initials: "CB"
-  },
-  {
-    name: "Sharon Mutale",
-    role: "Marketing Director",
-    initials: "SM",
-    photo: "/team/sharon-mutale.jpg"
   }
 ];
